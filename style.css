@@ -22,6 +22,7 @@ body
             font-size: 40px;
             font-weight: bold;
             display: flex;
+            overflow: hidden;
             flex-direction: row-reverse;
         }
         .main
