@@ -36,9 +36,27 @@ body
             gap : 20px;
             padding : 26px 18px;
             box-sizing: border-box;
-            
-
         }
+        @media screen and (max-width:400px) and (max-height:700px)
+        {
+            .container
+            {
+                margin:11vh 3vw;
+            }
+            .section
+            {
+                height : 13.5vh;
+                width: 90vw;
+            }
+            .main
+            {
+                height:58vh;
+                width:90vw; 
+            }
+        }
+
+
+
         .btn
         {
             border-radius: 2dvb;
